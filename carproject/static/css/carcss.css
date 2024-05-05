@@ -1,0 +1,678 @@
+.bus img{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 32%;
+    width: 35%;
+    height: 35%;
+    z-index: 2;
+}
+#big{
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: yellow;
+}
+
+
+.brand{
+    top: 450;
+    left: 545;
+    z-index: 2;
+    position: absolute;
+ text-align: center;
+ font-family: 'Dancing Script', cursive;
+ color: aliceblue;
+}
+
+
+.imgsmoke{
+        position: relative;
+        padding-top: 300px;
+        margin-left: 66%;
+        width: 90%;
+        height: 100%;
+        z-index: 2;
+    
+}
+.contactedit{
+    height: 50vh;width: 100vh;
+    background-color: rgba(0, 0, 0, 0.471);
+    margin-left: 20%;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding:1px;
+}
+.imgsmok{
+    width: 20%;height: 20%;
+}
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
+  }
+.imgsmoke{
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-2px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-2px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.main{
+    z-index: 1;
+    height: 105vh;
+    position:absolute;
+    top:0;
+    width: 100%;
+    background-color: white;
+}
+/* .main #nav{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+} */
+.topscreen{
+    position:absolute;
+    z-index: 2;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+
+}
+.blur{
+    position: absolute;
+    z-index: 1;
+   filter: blur(4px);
+
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.434);
+}
+.place{
+    height: 65%;
+    width: 70%;
+    z-index: 3;
+   
+    border-radius: 9px;
+    background-image:url(image/place/Gir-National-Park03.jpg);
+    box-shadow: 5px 9px 10px 9px rgba(0, 0, 0, 0.2), 2px 1px 20px 9px rgba(0, 0, 0, 0.19);
+    background-color: aliceblue; 
+   
+    margin-left: 15% ;
+    margin-top: 9%;
+}
+
+.imgslider{
+    background-size: 100% 100%;
+    animation: changeimg 20s linear infinite ;
+    background-color: black; height: 100%;width: 100%;
+
+}
+
+@keyframes changeimg {
+    0% {
+        background-image: url(image/place/pavagadhtemplefrontview.jpg);
+    }
+    9.9% {
+        background-image: url(image/place/pavagadhtemplefrontview.jpg);
+    }
+    10% {
+      background-image: url(image/place/Gir-National-Park03.jpg);   
+    }
+    19.9% {
+        background-image: url(image/place/Gir-National-Park03.jpg);   
+      }
+    20% {
+        background-image: url(image/place/Rani\ Ki\ Vav29.jpg);
+    }
+    29.9% {
+        background-image: url(image/place/Rani\ Ki\ Vav29.jpg);
+    }
+    30% {
+        background-image: url(image/place/shrimadrajchandramorning.jpg);
+    }
+    39.9% {
+        background-image: url(image/place/shrimadrajchandramorning.jpg);
+    }
+    40% {
+        background-image: url(image/place/Sun\ Temple19.jpg);
+    } 
+    49.9% {
+        background-image: url(image/place/Sun\ Temple19.jpg);
+    }   
+    50% {
+        background-image: url(image/place/8bp1t7172vjh6riuqu64otza3zfp_shutterstock_1413640199.jpg);
+    } 
+    59.9% {
+        background-image: url(image/place/8bp1t7172vjh6riuqu64otza3zfp_shutterstock_1413640199.jpg);
+    } 
+    60% {
+        background-image: url(image/place/SOU182Me.png);
+    } 
+    69.9% {
+        background-image: url(image/place/SOU182Me.png);
+    }
+    70% {
+        background-image: url(image/place/varieties-of-flora-and-fauna.webp);
+    } 
+    79.9% {
+        background-image: url(image/place/varieties-of-flora-and-fauna.webp);
+    } 
+    80% {
+        background-image: url(image/place/miyawakiplantation4.jpeg);
+    } 
+    89.9% {
+        background-image: url(image/place/miyawakiplantation4.jpeg);
+    } 
+    90% {
+        background-image: url(image/place/Seema-Darshan-Banner.jpg);
+    }
+    100% {
+        background-image: url(image/place/Seema-Darshan-Banner.jpg);
+    } 
+  
+   
+
+}
+#name{
+    position: absolute;
+    top: 80%;
+    right: 10px;
+    color: rgba(0, 0, 0, 0.564);
+}
+
+.place #heading h1{
+    color: rgba(0, 0, 0, 0.457);
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.bg{
+    margin-top: 52%;
+
+    background-image: url(image/place/Dwarkadhish-Temple-1.jpg);
+    background-attachment: fixed;
+    height: 115%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 1px;
+}
+.box{
+
+    width: 100.05%;
+    height: 110%;
+    background-color:wheat;
+    background-image: url(image/place/diwali-indian-mandala-vector-pattern-background_53876-175407.avif);
+    background-size: 100.4% 100%;
+    padding: 1px;
+    background-repeat: repeat;
+
+}
+.glass{
+
+    width:20%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.308);
+    margin-left: 10%;
+    margin-top: 20%;
+    backdrop-filter: blur(3px);
+    border-radius: 5px;
+    box-shadow: 9px 13px 10px;
+    
+
+}
+.glass2{
+
+    width:20%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.308);
+    margin-left: 10%;
+    margin-top: 20%;
+    backdrop-filter: blur(3px);
+    border-radius: 5px;
+    box-shadow: 9px 13px 10px;
+    
+
+}
+.bg1{
+
+    background-image: url(image/place/Nageshwar-Jyotirlinga-Thumbnail.jpg);
+    background-attachment: fixed;
+    height: 115%;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size: 120% 100%;
+    padding: 1px;
+}
+.box-blur-big{
+    
+    margin-top: 20px;
+    height: 70%;
+    width: 80%;
+
+    border-radius: 4px;
+    margin-left: 10%;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.308);
+    box-shadow: 9px 13px 10px;
+
+}
+.box-inner{
+    margin-top: 5%;
+    float: left;
+    height: 80%;
+    width: 30%;
+    background-color: rgb(255, 250, 250);
+    border-radius: 5px;
+    margin-left: 70px;
+ }
+/* @media screen and (max-width:650px) {
+    .box{
+        height: 150vh;
+        width: 100%;
+    }
+    .abc img{
+        height: 20%;
+        width: 100%;
+    }  
+}  */ 
+.nav-item{
+    
+    width: auto;
+    font-size: 15px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.569);
+    color: aliceblue;
+    border-radius: 30px;
+    margin-top: 10px;
+    
+}
+.firstnav{
+    margin-left: 310px;
+}
+.navbar{
+
+    height: 60px;
+
+    width: 100%;
+ margin-bottom: 0px;
+}
+nav{
+    position: fixed;
+    top: 0px;
+}
+.nav-link{
+    padding: 10px;
+}
+ul{
+    text-align: center;
+}
+#a1{
+    float: left;
+    margin-top: 1px;
+    border-radius: 20px; 
+    width: 300px;
+    height: auto;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.535);
+    font-size: 10px;
+    padding: 15px;
+}
+#a27{
+    float: left;
+    margin-top: 1px;
+    border-radius: 20px; 
+    width: 300px;
+    height: auto;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.535);
+    font-size: 10px;
+    padding: 20px;
+}
+.a2{
+    margin-left: 220px; 
+    float: left;
+}
+.a3{
+    margin-left:20px ;
+    float: left;
+}
+.a4{
+    margin-left:20px ;
+    float: left;
+}
+#a5{
+    color: white; margin-top: 15px;
+}
+.a6{
+    float: left;
+    margin-left: 340px; 
+    background-color: rgba(0, 0, 0, 0.535);
+    border-radius: 30px;
+    margin-top: 5px;
+}
+.a7{
+    height: 50vh;
+    width: 100vh;
+    background-color: rgba(0, 0, 0, 0.471);
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding:1px;
+
+}
+.a8{
+    margin-left: 20%;
+    margin-top:10% ;
+    color: white;
+    font-size: large;
+}
+.a9{
+    font-size: 20px; 
+    color: white;
+   
+}
+.a10{
+    mix-blend-mode:luminosity;
+    height: 30px;
+     border-radius: 50%;
+}
+.b1{
+    font-weight: lighter; color: rgba(255, 255, 255, 0.639);text-align: center; font-size:large;padding-top: 20px;
+}
+.b2{
+    color: aliceblue;padding: 10px;text-align: center;
+    font-size: large;
+    font-weight: normal;
+}
+.swift{
+    width: 60%;height: 100%; float: left;
+}
+.innova{
+    width: 60%;height: 100%; float: left;
+}
+.tempo{
+    width: 60%;height: 100%; float: left;
+}
+.hondaCity{
+    width: 60%;height: 100%; float: left;
+}
+.ciaz{
+    width: 60%;height: 100%; float: left;
+}
+.innovaOld{
+    width: 60%;height: 100%; float: left;
+}
+.travera{
+    width: 60%;height: 100%; float: left;
+}
+.contactedit{
+    margin-top: 15%;
+    height: 70%;
+}
+.carshowhead{
+    height: 80px;
+     width: 80%;
+     font-size: xx-large;
+     margin-left: 10%;
+     margin-top: 20px;
+      background-color: rgb(253, 249, 249); 
+      border-radius: 5px;
+      color: rgb(1, 3, 5);
+    text-align: center;
+
+}
+
+@media screen and (max-width:600px) {
+    #big{
+     
+        font-size: small;
+        margin-left: 5px;
+
+    }
+    .place #heading h1{
+        color: rgba(0, 0, 0, 0.502);
+        font-family: 'Dancing Script', cursive;
+        font-size: 25px;
+        text-align: center;
+    }
+    #a1{
+        font-size: smaller;
+        width: 25%;
+        height: auto;
+        float: left;
+        margin-top: 10px;
+        margin-left: 5px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    #a27{
+        font-size: smaller;
+        width: 15%;
+        height: auto;
+        
+        margin-top: 10px;
+        margin-left: 5px;
+        background-color: rgba(0, 0, 0, 0);
+        
+       }
+    .a2{
+        width: 10px;
+        height: auto;
+        font-size: smaller;
+        float: left;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .a3{ margin-left: 7px;
+        width: 10px;
+        height: auto;
+        font-size: smaller;
+        margin-top: 10px;
+    }
+    .a4{
+        font-size: smaller;
+        margin-top: 10px;
+        float: left;
+    }
+    #a5{
+        font-size: smaller;
+        
+        margin-top: 0px;
+    }
+    .a6{
+        font-size: 5px;
+        margin-left: 5px;
+        margin-top: 25px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .a7{
+        height: 25%;
+        font-size: small;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .a8{
+        font-size: small;
+        float: left;
+        margin-left: 5px;
+    }
+    .a9{
+        margin-top: 30px;
+        font-size: 8px;
+        color: white;
+        margin-left: 5px;
+    }
+    .a10{
+        height: 15px;
+        color: white;
+    }
+    .nav-item{
+         background-color: rgba(0, 0, 0, 0);
+    }
+    .bg{
+        height: 50%;
+        background-size: 100% 100%;
+        background-image: url(image/place/9cc1f06e4ed19b7107f5212729aad71a.jpg);
+
+        
+        
+    }
+    .carshowhead{
+        height: 30px;
+         width: 80%;
+         margin-left: 10%;
+         margin-top: 20px;
+          background-color: rgb(255, 255, 255); 
+          border-radius: 5px;
+          color: rgb(1, 3, 5);
+        text-align: center;
+        font-size: small;
+    }
+    .set1{
+        height: 40%;
+        filter: blur(0px);
+    }
+    .place{
+        margin-top: 20%;
+        height: 40%;
+      
+    }
+    .adjustbg2{
+        margin-top: 20%;
+        width: 30%;
+    }
+    .bg1{
+        height: 35%;
+
+        background-size: 100% 101%;
+        background-image: url(image/place/kedarnath-temple-trishul-jimvejoll81ojfgg.webp);
+        
+    }
+    .b1{
+        font-size: small;
+    }
+    .glass{
+        width: 30%;
+        margin-top: 40%;
+        
+    }
+    .b2{
+        padding: 5px;
+        font-size: smaller;
+    }
+    .box{
+        height: 50%;
+    }
+    .overlay{
+        height: 40%;
+    }
+    .swift{
+        width: 100%;height: 100%; float: left;
+    }
+    .innova{
+        width: 100%;height: 100%; float: left;
+    }
+    .tempo{
+        width: 100%;height: 100%; float: left;
+    }
+    .hondaCity{
+        width: 100%;height: 100%; float: left;
+    }
+    .ciaz{
+        width: 100%;height: 100%; float: left;
+    }
+    .innovaOld{
+        width: 100%;height: 100%; float: left;
+    }
+    .travera{
+        width: 100%;height: 100%; float: left;
+    }
+    .bus img{
+        margin-top: 63%;
+        margin-left: 36%;
+        
+        height: 15%;
+        width: 27%;
+    }
+    /* .imgsmok{
+        height: 10%;
+        width: 10%;
+    } */
+    .brand{
+        top:350;
+        left: 90;
+    }
+    .formnotify{
+        width: 100%;
+        margin-left: -5px;
+    }
+   
+    .imgsmok{
+        height: 10%;
+        width:  10%;
+    }
+    .imgsmoke{
+        margin-left: 65%;
+        padding-top: 290px;
+    }
+    .contactedit{
+        width: 90%;
+        margin-left: 10px;
+        font-size: 3px;
+        margin-top: 25%;
+        float: left;
+
+    }
+    .fontcontact{
+        margin-left: 5%;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        text-align: justify;
+        float: left;
+        
+    }
+    .fontedit{
+        margin-left: 0px;
+        font-size: x-small;
+    }
+    .adjust{
+        margin-top: 50%;
+        
+    }
+    .navedit{
+        margin-top: -20px;
+    }
+   
+}
+.fontcontact{
+    margin-left: 20%;color: white;
+    padding: 10px;
+}
+.formnotify{
+    margin-top: 0px;padding: 1px;background: rgba(0, 0, 0, 0.334);font-size: 16px;margin-left: 8%;z-index: 2;
+}
+
+.pre1{
+    background-color: rgba(0, 0, 0, 0.299);margin-left: 10px;width: 80%;color: white;z-index: 2;position: relative;
+}
