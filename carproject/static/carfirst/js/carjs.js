@@ -27,10 +27,6 @@ tl
     opacity:0,
     duration:2
   })
-  .to(",navEmerge",{
-    y:0,
-    duration:1
-  })
   .from(".place",{
     opacity:0,
     duration:2,
